@@ -220,23 +220,23 @@ PLANS = {
     "1": {
         "name": "1 день", 
         "days": 1,
-        "rub": 990,    
-        "stars": 1090,  
-        "crypto": 14    
+        "rub": 3500,    
+        "stars": 3500,  
+        "crypto": 45    
     },
     "7": {
         "name": "7 дней", 
         "days": 7,
-        "rub": 1690, 
-        "stars": 1790, 
-        "crypto": 22
+        "rub": 4500, 
+        "stars": 4500, 
+        "crypto": 58
     },
     "30": {
         "name": "30 дней", 
         "days": 30,
-        "rub": 3490, 
-        "stars": 3590, 
-        "crypto": 48
+        "rub": 6000, 
+        "stars": 6000, 
+        "crypto": 77
     },
 }
 # ================== DB LOGIC ==================
