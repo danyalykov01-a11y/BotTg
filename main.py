@@ -220,22 +220,22 @@ PLANS = {
     "1": {
         "name": "1 день", 
         "days": 1,
-        "rub": 3500,    
-        "stars": 3500,  
+        "rub": 3590,    
+        "stars": 3690,  
         "crypto": 45    
     },
     "7": {
         "name": "7 дней", 
         "days": 7,
-        "rub": 4500, 
-        "stars": 4500, 
+        "rub": 4590, 
+        "stars": 4690, 
         "crypto": 58
     },
     "30": {
         "name": "30 дней", 
         "days": 30,
-        "rub": 6000, 
-        "stars": 6000, 
+        "rub": 5990, 
+        "stars": 5990, 
         "crypto": 77
     },
 }
