@@ -220,23 +220,23 @@ PLANS = {
     "1": {
         "name": "1 день", 
         "days": 1,
-        "rub": 3500,    
-        "stars": 3500,  
-        "crypto": 45    
+        "rub": 990,    
+        "stars": 1090,  
+        "crypto": 14    
     },
     "7": {
         "name": "7 дней", 
         "days": 7,
-        "rub": 4500, 
-        "stars": 4500, 
-        "crypto": 58
+        "rub": 1690, 
+        "stars": 1790, 
+        "crypto": 22
     },
     "30": {
         "name": "30 дней", 
         "days": 30,
-        "rub": 6000, 
-        "stars": 6000, 
-        "crypto": 77
+        "rub": 3490, 
+        "stars": 3590, 
+        "crypto": 48
     },
 }
 # ================== DB LOGIC ==================
@@ -800,25 +800,30 @@ async def pay_card(call: CallbackQuery):
     text_map = {
         "ru": (
             "💳 <b>Выберите тариф:</b>\n\n"
+            "💎 1 день — 690 рублей\n"
             "После оплаты вам придет ссылка на закрытый канал."
         ),
         "en": (
             "💳 <b>Choose a plan:</b>\n\n"
+            "💎 1 day — 690 RUB\n"
             "⚠️ <b>Note:</b> SBP and Russian Cards work only with Russian banks. "
             "For international payments, please use <b>Stars</b> or <b>Crypto</b>."
         ),
         "es": (
             "💳 <b>Elige un plan:</b>\n\n"
+            "💎 1 día — 690 RUB\n"
             "⚠️ <b>Nota:</b> El pago con tarjeta rusa solo funciona para bancos de Rusia. "
             "Use <b>Stars</b> o <b>Crypto</b> para pagos internacionales."
         ),
         "de": (
             "💳 <b>Tarif wählen:</b>\n\n"
+            "💎 1 Tag — 690 RUB\n"
             "⚠️ <b>Hinweis:</b> Zahlungen mit russischen Karten funktionieren nur mit russischen Banken. "
             "Nutzen Sie <b>Stars</b> oder <b>Crypto</b>."
         ),
         "fr": (
             "💳 <b>Choisissez une offre:</b>\n\n"
+            "💎 1 jour — 690 RUB\n"
             "⚠️ <b>Note:</b> Le paiement par carte russe ne fonctionne que pour les banques russes. "
             "Utilisez <b>Stars</b> ou <b>Crypto</b>."
         )
